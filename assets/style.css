@@ -1,18 +1,45 @@
-.vd {
-    padding: 100px;
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.hdr {
+    margin-bottom: 30px auto auto auto;
+    padding: 0px;
     text-align: center;
-    background: #ddcf06;
-    color: rgb(75, 40, 40);
-    font-size: 30px
+    font-size: 20px;
+    
+    justify-content: space-between;
+    background: lightgray;
+   
+}
+.hdr nav ul li {
+    display: inline;
+}
+.hdr nav li ul {
+    display: inline;
+}
+footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
     
 }
-.vd h1 {
+footer h2{
     float: left;
+    
 }
-.vd li {
+footer ul li {
     display:inline;
-    margin-right: 100px;
 }
-.vd ul {
-    float: right;
+
+.row h2{
+    padding: 30px;
+    background: lightsteelblue;
+} 
+.row1 h2 {
+    padding: 30px;
+    background: lightsteelblue;
 }
