@@ -1,0 +1,18 @@
+.vd {
+    padding: 100px;
+    text-align: center;
+    background: #ddcf06;
+    color: rgb(75, 40, 40);
+    font-size: 30px
+    
+}
+.vd h1 {
+    float: left;
+}
+.vd li {
+    display:inline;
+    margin-right: 100px;
+}
+.vd ul {
+    float: right;
+}
