@@ -1,5 +1,7 @@
 *{
     box-sizing:border-box;
+    margin:0;
+    padding:0;
 }
 body {
     display: flex;
@@ -12,7 +14,7 @@ body {
     flex-direction: row;
 }
 .trupi>article {
-    flex:4;
+    flex:1;
     min-height: 60vh;
 }
 .koka, .kama {
@@ -21,7 +23,7 @@ body {
 }
 
 .koka,.kama,article,nav {
-  padding: 1em;
+  padding: 0.3px ;
 }
 .column-1 {
     background: lightcyan;
@@ -42,12 +44,10 @@ body {
 .link-container{
     display: flex;
     flex-direction: column;
-    line-height: 15;
-
-    
-    
+    line-height: 13;
 }
 nav {
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
 }
