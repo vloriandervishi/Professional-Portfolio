@@ -9,9 +9,10 @@
 .banner {
     display:grid;
     grid-template-columns: max-content;
-    padding-bottom: 273px;
+    padding-bottom: 276.867px;
     background-repeat: no-repeat;
     background-size:cover;
+    height:282.866px;
     background-image: url("../assets/images/02-advanced-css-homework-demo.jpg");
 }
 @media screen and (min-width:1024px){
@@ -112,27 +113,37 @@
     }
     #pflex p {
         font-size:20px;
+        margin-top:458px;
     }
     #About-me {
         border-right: 5px solid var(--secondary-color);
-        height: 350px;
-        color:darkslateblue;
+        height: 97px;
+        color:var(--secondary-color);
         /*! margin: auot 20px; */
         padding-left: 57px;
+        border-bottom-width:0px;
+        border-bottom-style:solid;
+        margin-bottom:1250px;
+        margin-right:-223px;
+        margin-left:-280px;
+        margin-top:153px;
+        border-left-width:-22px;
+        font-size: 80px;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
     #Work {
         border-right: 5px solid var(--secondary-color);
         height: 250px;
         padding: 49px;
-        color: darkslateblue;
+        color: var(--secondary-color);
+        font-size:80px;
     }
     #Contact-Me {
         border-right: 5px solid var(--secondary-color);
         height: 100px;
-        padding-left:35px;
-       
+        padding-left:65px;
+        margin-right:-240px;
         font-size: 33px;
-    
+        margin-left:47px;
         color: var(--secondary-color);
     }
