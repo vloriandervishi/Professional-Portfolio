@@ -25,7 +25,7 @@
     }
     
     .qubits {
-        background-color: #ecedf6;
+        background-color:var(--primary-color);
       
     }
     
@@ -58,7 +58,7 @@
         color:cyan;
     }
     .navflex h1 {
-        color: #2a3750;
+        color: var(--secondary-color);
     }
   
     .footerflex ul{
@@ -94,16 +94,16 @@
        
     }
     .header{
-        background-color: #2a3750;
+        background-color:var(--secondary-color);
     }
     .footer {
-        background-color: #ecedf6;
+        background-color:var(--primary-color);
     }
     .footer{
         grid-area: footer;
     }
     #pflex {
-        color: black;
+        color:var(--secondary-color);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         margin:30px;
         
@@ -111,7 +111,7 @@
     }
     #pflex p {
         font-size:20px;
-        margin-top:458px;
+        margin-top:648px;
         margin-left:31px;
     }
     #About-me {
@@ -125,7 +125,7 @@
         margin-bottom:1250px;
         margin-right:-199px;
         margin-left:-280px;
-        margin-top:153px;
+        margin-top:-390px;
         border-left-width:0px;
         font-size: 64px;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
