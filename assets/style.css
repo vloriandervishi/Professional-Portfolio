@@ -1,18 +1,36 @@
-@media screen and(max-width:1024px) {
 
-    body {
-        margin:0;
+:root {
+    /****Need to add primary color
+         Secondary color ******/
+         --primary-color: #ecedf6;
+         --secondary-color: #465671;
+
+}
+.banner {
+    display:grid;
+    grid-template-columns: max-content;
+    padding-bottom: 273px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: url("../assets/images/02-advanced-css-homework-demo.jpg");
+}
+@media screen and (min-width:1024px){
+
+    .wrapper {
+            width:960px;
        
-      
     }
+      /**Need to add comatibility screen here**/
     }
     
     .q {
         background-color: #ecedf6;
-        color:#fff;
-        padding:100px auto auto auto;
-        font-size: 150%;
+        /*! color:#fff; */
+    
+        /*! font-size: ; */
         
+        /*! padding: -21px; */
+        /*! margin: 0; */
     }
     
     .side-bar {
@@ -50,6 +68,8 @@
         justify-content: space-between;
         align-items: center;
         align-self: baseline;
+        color: var(--secondary-color);
+        
     }
     .content {
         grid-area: content;
@@ -62,15 +82,17 @@
     }
     .wrapper {
         display:grid;
-       
+        width:100%;
         grid-template-columns:minmax(0,1fr) minmax(0, 3fr) minmax(0,1fr);
         grid-template-rows: minmax(0,2fr) minmax(0, 10fr) minmax(0,3fr);
         grid-template-areas:
         "header header header"
         "side-bar content content"
         "footer footer footer";
-        background-color:lightskyblue;
-        color:slategray;
+        /*! background-color:lightskyblue; */
+        /*! color:slategray; */
+        /*! height: 100%; */
+       
     }
     .header{
         background-color: #2a3750;
@@ -92,20 +114,25 @@
         font-size:20px;
     }
     #About-me {
-        border-right: 5px solid #2a3750;
+        border-right: 5px solid var(--secondary-color);
         height: 350px;
         color:darkslateblue;
+        /*! margin: auot 20px; */
+        padding-left: 57px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
     #Work {
-        border-right: 5px solid #2a3750;
+        border-right: 5px solid var(--secondary-color);
         height: 250px;
-        padding: 33px;
+        padding: 49px;
         color: darkslateblue;
     }
     #Contact-Me {
-        border-right: 5px solid #2a3750;
+        border-right: 5px solid var(--secondary-color);
         height: 100px;
-        padding: 1px;
-        color: black;
+        padding-left:35px;
+       
         font-size: 33px;
+    
+        color: var(--secondary-color);
     }
