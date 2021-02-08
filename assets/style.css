@@ -254,6 +254,9 @@
     background-image: url("../assets/images/screenshot-1.jpg");
   }
   
+  .project-2 {
+    background-image: url("../assets/images/VictorsDealerShipScreenShot.jpg");
+  }
   /* END PORTFOLIO PROJECT IMAGES */
   
   @media screen and (max-width: 980px) {
