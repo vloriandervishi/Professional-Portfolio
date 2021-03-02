@@ -125,7 +125,9 @@
     line-height: 1.2;
     display: inline;
   }
-  
+  .CenterName{
+    text-align: center;
+  }
   .page-wrapper {
     max-width: 88%;
     margin-left: auto;
